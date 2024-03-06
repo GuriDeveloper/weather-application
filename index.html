@@ -13,43 +13,44 @@
     <main class="weather-app">
         <section class="main-container">
             <div class="search-section">
-                <input placeholder="Search you city...">
+                <input type="text" id="inputtext" placeholder="Search you city...">
             </div>
             <div class="location-temp">
                 <span class="location">Dehli,India</span>
                 <p class="date-time">Friday, March 2,2024 at 2:24PM</p>
-                <button>Clear</button>
+                <button id="btn">Clear</button>
+                <div class="icon"></div>
                 <p class="temp">24&#176;</p>
-                <span class="min-max">Min:24&#176;</span>
-                <span class="min-max">Max:24&#176;</span>
+                <span id="min" class="min-max">Min:24&#176;</span>
+                <span id="max" class="min-max">Max:24&#176;</span>
             </div>
             <div class="extra-info">
                 <div class="extra">
                     <img src="assets/icons8-thermometer-48.png" alt="'temperature" >
                     <div>
                         <p>Feels Like</p>
-                        <p>24&#176;</p>
+                        <p id="temp">24&#176;</p>
                     </div>
                 </div>
                 <div class="extra">
                     <img src="./assets/icons8-humidity-48.png" alt="'humidity" >
                     <div>
                         <p>Humidity</p>
-                        <p>42%</p>
+                        <p id="humidity">42%</p>
                     </div>
                 </div>
                 <div class="extra">
                     <img src="./assets/icons8-wind-48.png" alt="wind" >
                     <div>
                         <p>Wind</p>
-                        <p>2.84m/s</p>
+                        <p id="wind">2.84m/s</p>
                     </div>
                 </div>
                 <div class="extra">
                     <img src="./assets/icons8-pressure-48.png" alt="pressure">
                     <div>
                         <p>Pressure</p>
-                        <p>1084pha</p>
+                        <p id="pressure">1084pha</p>
                     </div>
                 </div>
             </div>
