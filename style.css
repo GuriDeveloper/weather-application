@@ -98,3 +98,10 @@ button{
 .extra>img{
     width: 30px;
 }
+
+
+@media screen and (max-width : 600px) {
+    .search-section>input{
+        width: 45%;
+    }
+}
